@@ -1,3 +1,8 @@
+<!-- 
+  - Replace hero image with jpeg  
+-->
+
+
 <!doctype html>
 <html lang="en">
 
@@ -38,6 +43,10 @@
             background-position-x: center;
             /* background-position: center; */
         }
+        .wfi-hero-text{
+          font-family: cooperBlack;
+          /* font-size: large; */
+        }
 
         .mission-section{
             min-height: 100vh;
@@ -48,8 +57,6 @@
 
     <title>We Funded It : Funding Black Dreams </title>
 </head>
-
-
 
 
 <body>
@@ -101,38 +108,39 @@
 
     <!-- Hero: 85vh -->
     <div class="wfi-hero container-fluid ">
+        <!-- Spacer -->
         <div style="min-height: 20vh;"></div>
 
         <!-- hero text -->
-        <div class="col-5 pl-5"> 
-            <h2>
+        <div class="col-5 pl-5 wfi-hero-text"> 
+            <h1>
                 Our Community, Our Ideas, Our Wealth
-            </h2>
-            <p>Fund black dreams for $5 a month</p>
-            <button type="button" class="btn btn-light">Primary</button>
+            </h1>
+            <p style="font-family: L10;">Fund black dreams for $5 a month</p>
+            <button type="button" class="btn btn-light">Get Started</button>
 
         </div> 
         <!-- /hero text -->
     </div>
 
-<!-- Section 2  -->
+<!-- SECTION 2  -->
 
   <!-- : 100vh -->
-  <div class="mission-section container-fluid ">
-    <div style="min-height: 20vh;"></div>
+  <div class="mission-section container-fluid " style="
+    position: relative;
+    top: 0;
+">
+    <div class="mission-bg" style="
+    position: absolute;
+    top: -22%;
+    left: -15%;
+    z-index: -1;
+">
+      <img src="assets/images/background/drawable-xxxhdpi/outBg.png" alt="" style="width: 35%;height: auto;transform: rotate(15deg);/* position: absolute; *//* left: -12%; *//* top: 0; */">
 
-    <!-- hero text -->
-    <div class="col-5 pl-5"> 
-        <h2>
-            Our Community, Our Ideas, Our Wealth
-        </h2>
-        <p>Fund black dreams for $5 a month</p>
-        <button type="button" class="btn btn-light">Primary</button>
+    </div>
 
-    </div> 
-    <!-- /hero text -->
 </div>
-
 
 
 
