@@ -19,10 +19,24 @@
         }
 
         @font-face {
-            font-family: cooperBlack;
+            font-family: L10;
             src: url(assets/font/L10/L10_Regular.ttf);
         }
+
         /*  */
+
+        .wfi-hero{
+            min-height: 85vh;
+            background-image: url('assets/images/background/hero-bg-image.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            /* background-size: 100% 100%; */
+            background-position-y: 38%;
+            background-position-x: center;
+            /* background-position: center; */
+
+        }
     </style>
 
     <title>We Funded It : Funding Black Dreams </title>
@@ -32,7 +46,77 @@
 
 
 <body>
-    <h1>Hello, world!</h1>
+    
+    <!-- Navbar: 15vh -->
+    <div class="container-fluid" style="background-color: #f7e9dd; min-height: 15vh;">
+        <!-- <div> -->
+        <nav class="col-10 mx-auto navbar navbar-expand-lg navbar-light" style="min-height: 15vh;">
+            <a class="navbar-brand" href="#">W</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                </li>
+                <!--  -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Get Funded <span class="sr-only">(current)</span></a>
+                  </li>
+                <!--  -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Fund a Project <span class="sr-only">(current)</span></a>
+                  </li>
+                <!--  -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Mentor <span class="sr-only">(current)</span></a>
+                  </li>
+                <!--  -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Volunteer <span class="sr-only">(current)</span></a>
+                  </li>
+                <!--  -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Our Ledger <span class="sr-only">(current)</span></a>
+                  </li>
+                <!--  -->
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Donate Now</button>
+              </form>
+            </div>
+        </nav>
+        <!-- </div> -->
+    </div>  <!-- /container -->
+
+    <!-- Hero: 85vh -->
+    <div class="wfi-hero container-fluid ">
+        <div style="min-height: 20vh;"></div>
+
+        <!-- hero text -->
+        <div class="col-5 pl-5"> 
+            <h2>
+                Our Community, Our Ideas, Our Wealth
+            </h2>
+            <p>Fund black dreams for $5 a month</p>
+            <button type="button" class="btn btn-light">Primary</button>
+
+        </div> 
+        <!-- /hero text -->
+    </div>
+
+
+
+
+
+
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
