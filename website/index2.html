@@ -58,10 +58,14 @@
             left: 0px;
         }
 
-        /*  */
-        /* Home Section */
-        /*  */
+        /*                   */
+        /*   HOME SECTION    */
+        /*                   */
         .wfi-home-section {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+
             /* container-fluid */
             width: 100%;
             padding-right: 15px;
@@ -73,13 +77,14 @@
             /* height: ; */
             background-color: transparent;
             
-            position: absolute;
-            top: 0px;
-            left: 0px;
         }
 
         /* Nav bar */
         .wfi-nav {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+
             /* container-fluid */
             width: 100%;
             padding-right: 15px;
@@ -92,9 +97,6 @@
             min-height: 15vh;
             background-color: #f7e9dd;
 
-            position: absolute;
-            top: 0px;
-            left: 0px;
         }
 
         .wfi-logo {
@@ -108,6 +110,45 @@
             background-color: black;
             color: white;
         }
+
+        /* Home Section Backgound */
+
+        /* Hero container */
+        .wfi-hero-bg{
+            position: absolute;
+            top: 15vh;
+            left: 0px;
+            width: 100%;
+            height: 85vh;
+        }
+
+
+        .wfi-hero-bg-image{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 85vh;
+
+            background-color: transparent;
+            background-image: url('assets/images/background/bgImage.png');
+            /* background-position: center; */
+            background-position-x: center;
+            background-position-y: 38%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .wfi-hero-bg-gradient{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 85vh;
+            opacity: 35%;
+            background-color: black;
+        }
+
     </style>
 
     <title>We Funded It : Funding Black Dreams </title>
@@ -156,8 +197,8 @@
 
         <!-- hero -->
         <div class="wfi-hero-bg">
-            <div class="wfi-hero-bg-gradient"></div>
             <div class="wfi-hero-bg-image"></div>
+            <div class="wfi-hero-bg-gradient"></div>
         </div>
 
     </div>
