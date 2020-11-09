@@ -98,7 +98,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    min-height: 15vh;
+    min-height: 6vh; /* mobile */ 
     background-color: #f7e9dd;
 
     /* container-fluid */
@@ -139,10 +139,17 @@ body {
 .wfi-hero-bg { 
     position: absolute;
     /* mobile */ 
-    top: 15vh; 
+    top: 6vh; /* mobile */
     left: 0px;
     width: 100%;
-    height: 85vh;
+    height: 30vh; /* mobile */
+
+    /* @media (max-width: 992px){
+        
+    } */
+    
+
+
 }
 
 
@@ -153,7 +160,7 @@ body {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 85vh;
+    height: 30vh; /* mobile */
 
     background-color: transparent;
     background-image: url('assets/images/background/bgImage.png');
@@ -170,11 +177,28 @@ body {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 85vh;
+    height: 30vh; /* mobile */
     opacity: 35%;
     background-color: black;
 }
 
+/* HOME TEXT */
+
+/* mobile */
+.wfi-home-text-mobile{
+    position: absolute;
+    top: 40vh;
+    left: 0px;
+    width: 100%;
+    padding-left: 24px;
+}
+
+.wfi-home-text-mobile > h1 {
+    font-family: cooperBlack;
+    font-size: x-large;
+}
+
+/* desktop */
 .wfi-home-text{
     position: absolute;
     top: 15vh;
