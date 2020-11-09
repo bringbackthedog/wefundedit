@@ -97,13 +97,14 @@ body {
 }
 
 .wfi-logo {
-    padding-left: 4rem;
+    padding-left: 48px;
 }
 
 .wfi-donate-button {
     font-family: L10;
     font-size: small;
-    width: 8rem;
+    /* width: 8rem; */
+    width: 128px;
     background-color: black;
     color: white;
 }
