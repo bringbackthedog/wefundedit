@@ -36,9 +36,15 @@ body {
     margin-right: auto;
 }
 
-/*                   */
-/*   HOME SECTION    */
-/*                   */
+/*********************
+                     |
+    ------------     |
+    |   HOME   |     |
+    ------------     |
+                     |
+*********************/
+
+/* HOME SECTION CONTAINER */
 .wfi-home-section {
     position: absolute;
     top: 0px;
@@ -55,9 +61,15 @@ body {
     /**/
 
 }
-/*         */
-/* NAV BAR */
-/*         */
+
+/****************************
+                            |
+    -------------------     |
+    | HOME > NAV BAR  |     |
+    -------------------     |
+                            |
+*****************************/
+
 
 
 /* Screens smaller than 1024px width */
@@ -77,6 +89,8 @@ body {
         margin-top: 10px!important;
     }
 }
+
+
 
 .wfi-nav {
     z-index: 99;
@@ -103,15 +117,26 @@ body {
 .wfi-donate-button {
     font-family: L10;
     font-size: small;
-    /* width: 8rem; */
     width: 128px;
     background-color: black;
     color: white;
 }
 
-/* Home Section Backgound */
 
-/* Hero CONTAINER CLASS FOR WHOLE PAGE-bg {
+
+/****************************
+                            |
+    -------------------     |
+    | HOME > BG IMAGE  |    |
+    -------------------     |
+                            |
+*****************************/
+
+
+
+
+/* HOME BACKGROUND CONTAINER */
+.wfi-hero-bg { 
     position: absolute;
     top: 15vh;
     left: 0px;
@@ -120,6 +145,8 @@ body {
 }
 
 
+
+/* HOME BACKGROUND IMAGE */
 .wfi-hero-bg-image {
     position: absolute;
     top: 0px;
@@ -136,6 +163,7 @@ body {
     background-size: cover;
 }
 
+/* HOME BACKGROUND GRADIENT */
 .wfi-hero-bg-gradient {
     position: absolute;
     top: 0px;
