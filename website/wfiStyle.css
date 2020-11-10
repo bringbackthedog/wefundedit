@@ -224,7 +224,7 @@ body {
 .wfi-mission-section{
     /* z-index: -2; */
     position: absolute;
-    top: 60vh;
+    top: 65vh;
     left: 0px;
     background-color: #f7e9dd;
     height: 100vh; /* smaller? */
@@ -241,15 +241,41 @@ body {
 
 
 .wfi-mission-bg-rect{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30vh;
+
 
     background-image: url('assets/images/background/drawable-xhdpi/mission-bg-1.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 
     width: 80%;
     height: 30vh;
     margin-left: 10%;
-    width: 80%;
-    height: 28vh;
+}
+
+
+.wfi-mission-text{
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    width: 100%;
+    height: 30vh;
+}
+
+.wfi-mission-text > * h1 {
+    font-family: cooperBlack;
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 8px;
+    
+}
+
+.wfi-mission-text > * p { 
+    font-family: L10;
+    text-align: center;
 }
