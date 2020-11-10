@@ -49,8 +49,8 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: transparent;
-    /* height: ; */
+    background-color: #f7e9dd;
+    height: 100vh;
 
     /* container-fluid */
     width: 100%;
@@ -196,6 +196,11 @@ body {
 .wfi-home-text-mobile > h1 {
     font-family: cooperBlack;
     font-size: x-large;
+}
+
+.wfi-home-text-mobile > p {
+    font-family: L10;
+    font-size: small;
 }
 
 /* desktop */
