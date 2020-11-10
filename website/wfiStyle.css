@@ -196,13 +196,22 @@ body {
 .wfi-home-text-mobile > h1 {
     font-family: cooperBlack;
     font-size: x-large;
+    color: #333333;
+
 }
 
 .wfi-home-text-mobile > p {
     font-family: L10;
     font-size: small;
+    color: #6a6562;
 }
 
+.wfi-home-text-mobile > button {
+    font-family: L10;
+    font-size: small;
+    background-color: #232323;
+    color: white;
+}
 /* desktop */
 .wfi-home-text{
     position: absolute;
@@ -272,7 +281,6 @@ body {
     font-size: x-large;
     text-align: center;
     padding-bottom: 8px;
-    
 }
 
 .wfi-mission-text > * p { 
