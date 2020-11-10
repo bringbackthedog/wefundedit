@@ -213,3 +213,43 @@ body {
 }
 
 
+/**********************
+                      |
+    -------------     |
+    |  MISSION  |     |
+    -------------     |
+                      |
+***********************/
+
+.wfi-mission-section{
+    /* z-index: -2; */
+    position: absolute;
+    top: 60vh;
+    left: 0px;
+    background-color: #f7e9dd;
+    height: 100vh; /* smaller? */
+    
+    /* container-fluid */
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /**/
+
+}
+
+
+.wfi-mission-bg-rect{
+
+    background-image: url('assets/images/background/drawable-xhdpi/mission-bg-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 80%;
+    height: 30vh;
+    margin-left: 10%;
+    width: 80%;
+    height: 28vh;
+}
