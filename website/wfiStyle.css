@@ -70,28 +70,6 @@ body {
                             |
 *****************************/
 
-
-
-/* Screens smaller than 1024px width */
-@media (max-width: 992px){
-    /* nav bar */
-    #navbarSupportedContent{
-        padding-left: 48px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .wfi-logo{
-        padding-left: 48px;
-    }
-
-    .wfi-donate-button{
-        margin-top: 10px!important;
-    }
-}
-
-
-
 .wfi-nav {
     z-index: 99;
     
@@ -108,6 +86,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     /**/
+
+    box-shadow: 0 2px 8px 6px rgba(0,0,0,.2); /* cannot discern menu from page w/o */
+    
 }
 
 .wfi-logo {
@@ -120,6 +101,28 @@ body {
     width: 128px;
     background-color: black;
     color: white;
+}
+
+
+/* Screens smaller than 1024px width */
+@media (max-width: 992px){
+    /* nav bar */
+    #navbarSupportedContent{
+        padding-left: 16px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .wfi-logo{
+        padding-left: 16px;
+    }
+
+    .wfi-logo > img{
+        width: 35px;
+    }
+    .wfi-donate-button{
+        margin-top: 10px!important;
+    }
 }
 
 
