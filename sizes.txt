@@ -1,0 +1,16 @@
+7680 x 3712
+5760 x 2784
+3840 x 1856
+
+Extra small <576px 	
+Small ≥576px 	
+Medium ≥768px
+Large ≥992px
+Extra large ≥1200p
+
+
+iPhone XS: 375 x 812
+
+IPad Pro: 1024 x 1366
+
+
