@@ -19,7 +19,14 @@ body {
     height: 100%;
 }
 
-/* CONTAINER CLASS FOR WHOLE PAGE */
+/********************************
+                                |
+    -----------------------     |
+    |   CONTAINER CLASS   |     |
+    |    FOR WHOLE PAGE   |     |
+    -----------------------     |
+                                |
+*********************************/
 .weFundedIt {
     /* height: ; */
     /* width: ; */
@@ -35,6 +42,34 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+/*********************
+                     |
+    ------------     |
+    |  SHARED  |     |
+    ------------     |
+                     |
+*********************/
+
+
+
+/**********************************
+                                  |
+    -------------------------     |
+    |  SHARED               |     |
+    |     > SECTION TITLES  |     |
+    -------------------------     | 
+                                  |
+**********************************/
+.wfi-section-header-title {
+    color: black;
+    font-family: cooperBlack;
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+
 
 /*********************
                      |
@@ -65,7 +100,8 @@ body {
 /****************************
                             |
     -------------------     |
-    | HOME > NAV BAR  |     |
+    | HOME            |     | 
+    |    > NAV BAR    |     |
     -------------------     |
                             |
 *****************************/
@@ -130,7 +166,8 @@ body {
 /****************************
                             |
     -------------------     |
-    | HOME > BG IMAGE  |    |
+    | HOME            |     |
+    |    > BG IMAGE   |     |
     -------------------     |
                             |
 *****************************/
@@ -236,7 +273,7 @@ body {
 .wfi-mission-section{
     /* z-index: -2; */
     position: absolute;
-    top: 65vh;
+    top: 65vh;  /* MISSION SECTION POSITION */ 
     left: 0px;
     background-color: #f7e9dd;
     height: 100vh; /* smaller? */
@@ -277,16 +314,63 @@ body {
     left: 0px;
     width: 100%;
     height: 30vh;
+
+
 }
 
-.wfi-mission-text > * h1 {
+/* delete */
+/* .wfi-mission-text > * h1 {
     font-family: cooperBlack;
     font-size: x-large;
     text-align: center;
     padding-bottom: 8px;
-}
+
+    color: black;
+} */
+
 
 .wfi-mission-text > * p { 
     font-family: L10;
     text-align: center;
 }
+
+
+
+
+/****************************
+                            |
+    -------------------     |
+    |     PILLARS     |     |
+    -------------------     |
+                            |
+*****************************/
+
+
+.wfi-pillars-section{
+    position: absolute;
+    top: 95vh;  /* PILLARD SECTION POSITION */ 
+    left: 0px;
+    background-color: #f7e9dd;
+    height: 100vh;
+
+    /* container-fluid */
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /**/
+
+}
+
+
+
+
+/****************************
+                            |
+    -------------------     |
+    |     PILLARS     |     |
+    |        >        |     |
+    -------------------     |
+                            |
+*****************************/
