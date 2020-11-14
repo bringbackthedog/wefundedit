@@ -430,7 +430,9 @@ body {
 
 .pillars-title
 {
-    position: absolute;
+    /* position: absolute; */
+    position: relative;
+    
     width: 100%;
     top: -110px;
 }
