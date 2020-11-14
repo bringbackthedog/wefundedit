@@ -262,6 +262,16 @@ body {
 }
 
 
+
+/* HOME GET STARTED BUTTON */
+
+#getStartedBtn{
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
 /**********************
                       |
     -------------     |
@@ -348,10 +358,10 @@ body {
 
 .wfi-pillars-section{
     position: absolute;
-    top: 95vh;  /* PILLARD SECTION POSITION */ 
+    top: 115vh;  /* PILLARD SECTION POSITION */ 
     left: 0px;
     background-color: white;
-    /* height: 100vh; */
+    height: 100vh;
 
     /* background-image: url('assets/images/background/drawable-xhdpi/mission-bg.png'); */
 
@@ -367,8 +377,6 @@ body {
 
 
     /* */ 
-    height: 200vh;
-    top: 105vh;
 	/* overflow: hidden; */
     /* */
 }
@@ -424,7 +432,7 @@ body {
 {
     position: absolute;
     width: 100%;
-    top: -42px;
+    top: -110px;
 }
 
 
