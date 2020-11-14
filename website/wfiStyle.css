@@ -271,7 +271,7 @@ body {
 ***********************/
 
 .wfi-mission-section{
-    z-index: -2;
+    /* z-index: -2; */
     position: absolute;
     top: 65vh;  /* MISSION SECTION POSITION */ 
     left: 0px;
@@ -369,7 +369,7 @@ body {
     /* */ 
     height: 200vh;
     top: 105vh;
-	overflow: hidden;
+	/* overflow: hidden; */
     /* */
 }
 
@@ -386,24 +386,19 @@ body {
 **********************************/
 
 .wfi-pillars-bg{
-    /* img */
-    /* background-image: url('assets/images/background/drawable-xhdpi/mission-bg.png'); */
     position: absolute;
     top: 0;
     left: 0;
 
-
-
-    /* vertical-align: middle; */
-    /* border-style: none; */
-    /* transform: rotate(-90deg);
-    width: 1200px;
-    left: -420px;
-    position: absolute;
-    top: 250px; */
+    /*  */
+    height: 200vh;
+    width: 100%;
+    overflow: hidden;
+    /*  */
 }
 
 /* .wfi-pillars-bg > img { */
+/* This is the Image */
 #pillars-bg-1{
     vertical-align: middle;
     border-style: none;
