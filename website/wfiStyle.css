@@ -350,8 +350,11 @@ body {
     position: absolute;
     top: 95vh;  /* PILLARD SECTION POSITION */ 
     left: 0px;
-    background-color: #f7e9dd;
+    background-color: white;
     height: 100vh;
+
+    /* background-image: url('assets/images/background/drawable-xhdpi/mission-bg.png'); */
+
 
     /* container-fluid */
     width: 100%;
@@ -363,6 +366,33 @@ body {
 
 }
 
+
+
+
+/****************************
+                            |
+    -------------------     |
+    |     PILLARS     |     |
+    |        >        |     |
+    -------------------     |
+                            |
+*****************************/
+
+.wfi-pillars-bg{
+    /* img */
+    /* background-image: url('assets/images/background/drawable-xhdpi/mission-bg.png'); */
+
+    /* rotate: ; */
+}
+
+/****************************
+                            |
+    -------------------     |
+    |     PILLARS     |     |
+    |        >        |     |
+    -------------------     |
+                            |
+*****************************/
 
 
 
