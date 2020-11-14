@@ -271,7 +271,7 @@ body {
 ***********************/
 
 .wfi-mission-section{
-    /* z-index: -2; */
+    z-index: -2;
     position: absolute;
     top: 65vh;  /* MISSION SECTION POSITION */ 
     left: 0px;
@@ -351,7 +351,7 @@ body {
     top: 95vh;  /* PILLARD SECTION POSITION */ 
     left: 0px;
     background-color: white;
-    height: 100vh;
+    /* height: 100vh; */
 
     /* background-image: url('assets/images/background/drawable-xhdpi/mission-bg.png'); */
 
@@ -364,26 +364,57 @@ body {
     margin-right: auto;
     /**/
 
+
+
+    /* */ 
+    height: 200vh;
+    top: 105vh;
+	overflow: hidden;
+    /* */
 }
 
 
 
 
-/****************************
-                            |
-    -------------------     |
-    |     PILLARS     |     |
-    |        >        |     |
-    -------------------     |
-                            |
-*****************************/
+/*********************************
+                                 |
+    -------------------------    |
+    |     PILLARS           |    |
+    |        >  Background  |    |     
+    -------------------------    |
+                                 |
+**********************************/
 
 .wfi-pillars-bg{
     /* img */
     /* background-image: url('assets/images/background/drawable-xhdpi/mission-bg.png'); */
+    position: absolute;
+    top: 0;
+    left: 0;
 
-    /* rotate: ; */
+
+
+    /* vertical-align: middle; */
+    /* border-style: none; */
+    /* transform: rotate(-90deg);
+    width: 1200px;
+    left: -420px;
+    position: absolute;
+    top: 250px; */
 }
+
+/* .wfi-pillars-bg > img { */
+#pillars-bg-1{
+    vertical-align: middle;
+    border-style: none;
+    transform: rotate(-90deg);
+    width: 1200px;
+    left: -420px;
+    position: absolute;
+    top: 250px;
+
+}
+
 
 /****************************
                             |
