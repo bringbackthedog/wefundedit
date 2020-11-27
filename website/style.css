@@ -1,4 +1,25 @@
 
+/*********************
+                     |
+    ------------     |
+    |   FONT   |     |
+    ------------     |
+                     |
+*********************/
+
+@font-face {
+    font-family: cooperBlack;
+    src: url(assets/font/CooperBlack/Cooper_Black_Regular.ttf);
+}
+
+@font-face {
+    font-family: L10;
+    src: url(assets/font/L10/L10_Regular.ttf);
+}
+
+
+
+
 html {
     width: 100%;
     height: 100%;
@@ -9,14 +30,61 @@ body {
     height: 100%;
 }
 
+
+
+
+
 /*********************
                      |
     ------------     |
-    |   HOME   |     |
+    |   NAV    |     |
     ------------     |
                      |
 *********************/
 
+
+.wfi-nav {
+
+}
+/* @media (min-width: 768px){
+    .wfi-nav-mobile{
+        display: none;
+    }
+    .wfi-nav{
+        display: block;
+    }                   
+} */
+
+.donate-button {
+    font-family: L10;
+    font-size: small;
+    width: 128px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+/*********************
+                     |
+    ------------     |
+    |   HERO   |     |
+    ------------     |
+                     |
+*********************/
+.hero-section{
+    height: 100vh;
+    width: 100vw;
+}
+
+.hero-bg{
+    width: 100%;
+    height: auto;
+    background-image: url('assets/images/background/drawable-xxhdpi/bg.png');    
+    
+}
 
 
 
@@ -73,8 +141,8 @@ body {
     /* background-size: cover;  */
 } 
 
-/* tablets: iPad, iPad Pro  */
-@media (min-width: 768px) and (max-width: 1024px)
+/* tablets and desktops, less than 1200px */
+@media (min-width: 768px) and (max-width: 1199.98px) 
 { 
     /* show bg  */
     .mission-bg{ display: block; } 
