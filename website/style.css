@@ -9,30 +9,75 @@ body {
     height: 100%;
 }
 
+/*********************
+                     |
+    ------------     |
+    |   HOME   |     |
+    ------------     |
+                     |
+*********************/
+
+
+
+
+
+
+/**********************
+                      |
+    -------------     |
+    |  MISSION  |     |
+    -------------     |
+                      |
+***********************/
+
+.mission-section{
+    height: 25vh;
+    position: relative;
+}
+
+.mission-bg{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.mission-shape-1{
+    /* width: 130px; */
+    position: absolute;
+    transform: rotate(30deg);
+    top: -32px;
+    left: -48px;
+    width: 130px;
+    
+}
+.mission-shape-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
 
 /* @media (min-width: 768px) and (max-width: 991.98px) { ... } */
 .mission-bg{
     display: none;
     /* width: 100vw; */
     /* height: auto; */
-    height: 100vh;
+    /* height: 100vh; */
     /* background-attachment: scroll; */
     /* background-color: transparent; */
-    background-image: url('assets/images/background/drawable-xhdpi/outBg.png');
+    /* background-image: url('assets/images/background/drawable-xhdpi/outBg.png'); */
     /* background-position: center; */
-    background-position-x: center;
-    background-position-y: 38%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-position-x: center; */
+    /* background-position-y: 38%; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover;  */
 } 
 
 /* tablets: iPad, iPad Pro  */
 @media (min-width: 768px) and (max-width: 1024px)
 { 
     /* show bg  */
-    .mission-bg{
-        display: block;
-    } 
+    .mission-bg{ display: block; } 
 }
 
 /* @media (min-width: 992px) and (max-width: 1199.98px) { ... } */
