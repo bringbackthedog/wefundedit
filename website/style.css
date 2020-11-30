@@ -42,8 +42,13 @@ body {
     ------------     |
                      |
 *********************/
-
-
+@media (min-width: 768px) {
+    .wfi-menu-items{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-size: small;
+    }   
+}
 .donate-button {
     font-family: L10;
     font-size: small;
@@ -194,6 +199,8 @@ body {
     font-family: L10;
     text-align: center;
 }
+
+/* mission-txt-mobile > */
 .mission-txt-mobile > p {
     font-size: small;
 }
