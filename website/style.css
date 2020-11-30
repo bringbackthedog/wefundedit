@@ -83,7 +83,22 @@ body {
     position: absolute;
     top: 20%; /* from top of image */
     padding-left: 3rem!important; /* bs: pl-5*/
+    font-family: cooperBlack;
+}
+
+.hero-txt-mobile{
+    display: block;
+    color: black;
+    /* position: absolute; */
+    top: 20%; /* from top of image */
+    padding-left: 3rem!important; /* bs: pl-5*/
     font-family: L10;
+}
+
+/* Fund black dreams for $5 a month */
+.hero-txt > p { 
+    font-size: small;
+    opacity: 75%;
 }
 
 /* tablets and desktops, less than 1200px */
@@ -92,14 +107,11 @@ body {
     .hero-txt{
         display: block;
     } 
+    .hero-txt-mobile{
+        display: none;
+    } 
 }
 
-
-/* Fund black dreams for $5 a month */
-.hero-txt > p { 
-    font-size: small;
-    opacity: 75%;
-}
 .hero-btn{
     color: black;
     font-family: L10;
