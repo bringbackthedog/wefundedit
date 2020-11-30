@@ -1,0 +1,3 @@
+[ ] Fix text size depending on screen size 
+        (ie: h3 too small for big screens)
+        

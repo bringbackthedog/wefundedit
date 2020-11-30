@@ -78,12 +78,22 @@ body {
 }
 
 .hero-txt{
+    display: none;
     color: white;
     position: absolute;
     top: 20%; /* from top of image */
     padding-left: 3rem!important; /* bs: pl-5*/
     font-family: L10;
 }
+
+/* tablets and desktops, less than 1200px */
+@media (min-width: 768px) 
+{
+    .hero-txt{
+        display: block;
+    } 
+}
+
 
 /* Fund black dreams for $5 a month */
 .hero-txt > p { 
@@ -154,11 +164,11 @@ body {
 } 
 
 /* tablets and desktops, less than 1200px */
-@media (min-width: 768px) and (max-width: 1199.98px) 
-{ 
+/* @media (min-width: 768px) and (max-width: 1199.98px) 
+{  */
     /* show bg  */
-    .mission-bg{ display: block; } 
-}
+    /* .mission-bg{ display: block; } 
+} */
 
 /* @media (min-width: 992px) and (max-width: 1199.98px) { ... } */
 
