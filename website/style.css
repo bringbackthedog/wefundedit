@@ -63,23 +63,27 @@ body {
                      |
 *********************/
 .hero-section{
-    height: 100vh;
-    width: 100vw;
+    /* height: auto; */
+    width: 100%;
     position: relative;
 }
 
 .hero-bg{
     width: 100%;
     height: auto;
-    position: absolute;
     z-index: -99;
     /* background-image: url('assets/images/background/drawable-xxhdpi/bg.png');     */
     
 }
 
 .hero-txt{
-    height: 100%;
+    color: white;
+    position: absolute;
+    top: 20%; /* from top of image */
+    padding-left: 3rem!important; /* bs: pl-5*/
+    font-family: L10;
 }
+
 
 
 
