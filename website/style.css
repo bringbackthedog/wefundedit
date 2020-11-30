@@ -42,6 +42,7 @@ body {
     ------------     |
                      |
 *********************/
+/* smaller nav bar text and add padding on tablets + */
 @media (min-width: 768px) {
     .wfi-menu-items{
         padding-left: 1.5rem;
@@ -168,25 +169,45 @@ body {
     display: none;
 }
 
-/* MEDIA QUERIES */
-@media (min-width: 768px) {
-    .mission-shape-1{display: block;}
+.mission-shape-2{
+    position: relative;
+    text-align: center;
+    display: none;
+}
+
+.mission-shape-2 > img{
+    /* img-fluid */
+    height: 215px;
+    width: 55%;
 }
 
 .mission-shape-2-mobile{
     position: relative;
     text-align: center;
-
-    /* mx-4 */
-    /* margin-left: 1.5rem!important;
-    margin-right: 1.5rem!important; */
-
 }
 
 .mission-shape-2-mobile > img{
     /* img-fluid */
     height: 275px;
     transform: rotate(10deg);
+}
+
+
+.mission-txt-tablet{
+    display: none;
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    font-family: L10;
+    text-align: center;
+}
+
+.mission-txt-tablet > p {
+    font-size: small;
+    width: 70%;
 }
 
 .mission-txt-mobile{
@@ -200,9 +221,19 @@ body {
     text-align: center;
 }
 
-/* mission-txt-mobile > */
 .mission-txt-mobile > p {
     font-size: small;
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) {
+    .mission-shape-1{display: block;}
+    .mission-shape-2{display: block;}
+    .mission-shape-2-mobile{display: none;}
+
+    .mission-txt-mobile{display:none;}
+    .mission-txt-tablet{display: block;}
 }
 
 /* .mission-shape-2{
