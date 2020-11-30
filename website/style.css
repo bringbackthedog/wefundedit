@@ -28,6 +28,7 @@ html {
 body {
     width: 100%;
     height: 100%;
+    background-color: #F7E9DD;
 }
 
 
@@ -84,6 +85,18 @@ body {
     font-family: L10;
 }
 
+/* Fund black dreams for $5 a month */
+.hero-txt > p { 
+    font-size: small;
+    opacity: 75%;
+}
+.hero-btn{
+    color: black;
+    font-family: L10;
+    font-size: small;
+    background-color: white;
+
+}
 
 
 
