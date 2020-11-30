@@ -83,7 +83,7 @@ body {
     position: absolute;
     top: 20%; /* from top of image */
     padding-left: 3rem!important; /* bs: pl-5*/
-    font-family: cooperBlack;
+    font-family: L10;
 }
 
 /* Fund black dreams for $5 a month */
@@ -95,8 +95,6 @@ body {
 .hero-txt-mobile{
     display: block;
     color: #333333;
-    /* position: absolute; */
-    /* top: 20%; from top of image */
     padding-left: 3rem!important; /* bs: pl-5*/
     padding-top: 3rem!important; /* bs: pl-5*/
     font-family: L10;
