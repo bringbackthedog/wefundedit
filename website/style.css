@@ -43,18 +43,6 @@ body {
 *********************/
 
 
-.wfi-nav {
-
-}
-/* @media (min-width: 768px){
-    .wfi-nav-mobile{
-        display: none;
-    }
-    .wfi-nav{
-        display: block;
-    }                   
-} */
-
 .donate-button {
     font-family: L10;
     font-size: small;
@@ -77,13 +65,20 @@ body {
 .hero-section{
     height: 100vh;
     width: 100vw;
+    position: relative;
 }
 
 .hero-bg{
     width: 100%;
     height: auto;
-    background-image: url('assets/images/background/drawable-xxhdpi/bg.png');    
+    position: absolute;
+    z-index: -99;
+    /* background-image: url('assets/images/background/drawable-xxhdpi/bg.png');     */
     
+}
+
+.hero-txt{
+    height: 100%;
 }
 
 
