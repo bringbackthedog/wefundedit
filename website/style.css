@@ -111,8 +111,10 @@ body {
 ***********************/
 
 .mission-section{
+    overflow: hidden;
     height: 25vh;
     position: relative;
+
 }
 
 .mission-bg{
@@ -121,12 +123,10 @@ body {
     width: 100%;
 }
 .mission-shape-1{
-    /* width: 130px; */
     position: absolute;
-    transform: rotate(30deg);
-    top: -32px;
-    left: -48px;
-    width: 130px;
+    top: -115px;
+    left: -140px;
+    width: 395px;
     
 }
 .mission-shape-2{
