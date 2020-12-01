@@ -538,15 +538,37 @@ body {
 }
 
 .community-card-top{
-    background-color: #BAC9BF;
+    /* background-color: #BAC9BF; */
     height: 9rem;
     text-align: center;
 
 }
 .community-card-top > img{
-    width: 7.5rem;
+    width: 7rem;
     padding-bottom: .5rem!important;
     padding-top: .5rem!important;
+}
+
+.community-card-top#community-getFunded-card{
+    background-color: #BAC9BF;
+    
+}
+
+.community-card-top#community-mentor-card{
+    background-color: #232323;  
+    /*     
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -83%); */
+    /*  */
+}
+.community-card-top#community-mentor-card > img{
+    width: 9rem;
+}
+
+.community-card-top#community-volunteer-card{
+    background-color: #D3AF9A;
 }
 
 .community-card-body {
