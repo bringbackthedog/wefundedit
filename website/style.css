@@ -252,8 +252,17 @@ body {
     position: relative;
     width: 100%;   
     background-color: #CDA58F;
+
+    margin-top: 9rem;
 }
 
+
+.pillars-title{
+    position: absolute;
+    top: -120px;
+    width: 100%;
+    text-align: center;
+}
 
 .pillars-bg-mobile{
     /* width: 100%; */
@@ -268,8 +277,16 @@ body {
     background-repeat: no-repeat;
 }
 
+/* CARDS */
 .pillars-cards{
+    position: absolute;
+    top: 0%;
+}
 
+/* INDIVIDUAL CARD */
+.pillars-card{
+    margin-right: auto!important;
+    margin-left: auto!important;
 }
 .pillars-card-top{
     background-color: black;
@@ -288,10 +305,6 @@ body {
 
 
 
-.pillars-title{
-    width: 100%;
-    text-align: center;
-}
 
 
 
