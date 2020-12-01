@@ -355,7 +355,8 @@ body {
 ***********************/
 
 .team-section{
-
+    position: relative;
+    height: auto;
 }
 
 .team-title{
@@ -422,6 +423,81 @@ body {
     color: #666666;
     font-size: x-small;
 }
+
+
+/*  */
+/*  */
+/*  */
+
+/************************
+                         |
+    ------------------   |
+    | BUSINESS MODEL |   |     
+    ------------------   |
+                         |
+**************************/
+
+.business-model-section{
+    position: relative;
+    height: auto;
+}
+
+.business-model-title{
+    width: 100%;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 100%;
+}
+
+.business-model-infographic-mobile{
+    display: block;
+    padding-left: 3rem!important;
+    padding-right: 3rem!important;
+}
+
+/* add padding to all img descendants */
+.business-model-infographic-mobile img{
+    padding-bottom: 1.5rem!important;
+    padding-top: 1.5rem!important;
+}
+.business-model-infographic-tablet{
+    display: none;
+    
+}
+
+.bm-item *{
+    text-align: center;
+    /* font-family: L10; */
+}
+.bm-item-icon{
+    padding-left: 4rem!important;
+    padding-right: 4rem!important;
+}
+
+.bm-item-text > p{
+    width: 100%;
+}
+.bm-item-text > h5{
+    width: 100%;
+}
+.bm-item-text > p{
+    padding-left: 1.5rem!important;
+    padding-right: 1.5rem!important;
+}
+
+/* BUSINESS MODEL MEDIA QUERIES */
+@media (min-width: 768px) {
+    .business-model-infographic-mobile{
+        display: none;
+    }
+    .business-model-infographic-tablet{
+        display: block;
+    }
+}
+
+
+
 
 /* .mission-shape-2{
     position: absolute;
