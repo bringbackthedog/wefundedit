@@ -496,8 +496,39 @@ body {
     }
 }
 
+/*  */
+/*  */
+/*  */
 
 
+/************************
+                         |
+    ------------------   |
+    |    COMMUNITY   |   |     
+    ------------------   |
+                         |
+**************************/
+ 
+.community-section{
+}
+
+.community-bg{
+    width: 100%;
+    position: absolute;
+}
+
+.community-bg img {
+    width: 100%;
+    transform: translate(-50%, 0px);
+}
+
+.community-title{
+        width: 100%;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 100%;
+}
 
 /* .mission-shape-2{
     position: absolute;
