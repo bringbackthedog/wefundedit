@@ -193,7 +193,6 @@ body {
     transform: rotate(10deg);
 }
 
-
 .mission-txt-tablet{
     display: none;
  
@@ -226,16 +225,42 @@ body {
     font-size: small;
 }
 
-
-/* MEDIA QUERIES */
+/* MEDIA QUERIES: MISSION SECTION */
 @media (min-width: 768px) {
     .mission-shape-1{display: block;}
     .mission-shape-2-tablet{display: block;}
     .mission-shape-2-mobile{display: none;}
-
     .mission-txt-mobile{display:none;}
     .mission-txt-tablet{display: block;}
 }
+
+
+/*  */
+/*  */
+/*  */
+
+/**********************
+                      |
+    -------------     |
+    |  PILLARS  |     |
+    -------------     |
+                      |
+***********************/
+
+.pillars-section{
+    /* overflow: hidden; */
+    position: relative;
+    width: 100%;   
+    background-color: #CDA58F;
+}
+
+.pillars-title{
+    width: 100%;
+    text-align: center;
+}
+
+
+
 
 /* .mission-shape-2{
     position: absolute;
@@ -244,22 +269,6 @@ body {
     transform: translate(-50%, -50%);
 
 } */
-
-/* @media (min-width: 768px) and (max-width: 991.98px) { ... } */
-/* .mission-bg{ */
-    /* display: none; */
-    /* width: 100vw; */
-    /* height: auto; */
-    /* height: 100vh; */
-    /* background-attachment: scroll; */
-    /* background-color: transparent; */
-    /* background-image: url('assets/images/background/drawable-xhdpi/outBg.png'); */
-    /* background-position: center; */
-    /* background-position-x: center; */
-    /* background-position-y: 38%; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover;  */
-/* }  */
 
 /* tablets and desktops, less than 1200px */
 /* @media (min-width: 768px) and (max-width: 1199.98px) 
