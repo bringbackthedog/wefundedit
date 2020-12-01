@@ -280,18 +280,30 @@ body {
 /* CARDS */
 .pillars-cards{
     position: absolute;
-    top: 0%;
+    top: -5%;
 }
 
 /* INDIVIDUAL CARD */
 .pillars-card{
     margin-right: auto!important;
     margin-left: auto!important;
+    margin-bottom: 3rem!important;
+
+    border-radius: 8%;
+    border: 0;
+
+    width: 20rem;
+    overflow: hidden;
 }
+
 .pillars-card-top{
     background-color: #232323;
     height: 10rem;
     position: relative;
+
+    /* border-top-left-radius: 5%;
+    border-top-right-radius: 5%; */
+
 }
 
 /* card icon */
@@ -300,8 +312,6 @@ body {
         width: 24%;
         height: 150px; 
     */
-
-
     width: 75px;
     position: absolute;
     left: 50%;
@@ -312,8 +322,13 @@ body {
 
 .pillars-card-body{
     background-color: #F7E9DD;
+    height: 17rem;
+    text-align: center;
 }
 
+.card-title {
+    margin-bottom: 1.75rem;
+}
 
 
 
