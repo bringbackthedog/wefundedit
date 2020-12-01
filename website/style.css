@@ -31,7 +31,10 @@ body {
     background-color: #F7E9DD;
 }
 
-
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
 
 
 
@@ -266,11 +269,13 @@ body {
     height: auto;
     position: relative;
     background-image: url(assets/images/background/drawable-xhdpi/mission-bg-mobile.png);
-    background-size: 140%;
     /* background-position: center; */
     background-position-x: center;
     background-position-y: 4rem;
     background-repeat: no-repeat;
+    /* background-size: 140%; */
+    background-size: cover;
+    
 }
 
 /* CARDS */
@@ -294,7 +299,7 @@ body {
 
 .pillars-card-top{
     background-color: #232323;
-    height: 8rem;
+    height: 10rem;
     position: relative;
 
     /* border-top-left-radius: 5%;
@@ -308,7 +313,7 @@ body {
         width: 24%;
         height: 150px; 
     */
-    width: 70px;
+    width: 75px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -318,7 +323,7 @@ body {
 
 .pillars-card-body{
     background-color: #F7E9DD;
-    height: 15rem;
+    height: 17rem;
     text-align: center;
     position: relative;
 }
