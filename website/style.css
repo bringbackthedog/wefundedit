@@ -617,6 +617,38 @@ body {
 }
 
 
+/*  */
+/*  */
+/*  */
+
+
+/************************
+                         |
+    ------------------   |
+    |      FOOTER    |   |     
+    ------------------   |
+                         |
+**************************/
+
+.wfi-footer-mobile{
+    display: block;
+}
+
+.wfi-footer-tablet{
+    display: none;
+}
+
+@media (min-width: 768px){
+    .wfi-footer-mobile{
+        display: none;
+    }
+    
+    .wfi-footer-tablet{
+        display: block;
+    }   
+}
+
+
 
 /* .mission-shape-2{
     position: absolute;
