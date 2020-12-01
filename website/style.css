@@ -521,6 +521,16 @@ body {
     margin-top: 12rem;
 }
 
+.community-bg-mask{
+    position: absolute;
+    top: -5%;
+    height: 105%;
+    background-color: white;
+    opacity: 50%;
+    width: 100%;
+    /* padding-top: -1.5rem!important; */
+}
+
 .community-bg{
     width: 100%;
     height: 100%;
@@ -536,7 +546,7 @@ body {
 
 .community-title{
     position: absolute;
-    top: -10%;
+    top: -20%;
     width: 100%;
     text-align: center;
     height: 100%;
