@@ -381,7 +381,7 @@ body {
 .team-card{
     background-color: white;
     width: 100%;
-    height: 8rem;
+    height: 9rem;
     border-radius: 5%;
 }
 
@@ -395,6 +395,15 @@ body {
     padding-bottom: 1.5rem!important;
 }
 
+.team-card-name{
+    color:#333333;
+    font-size: smaller;
+}
+
+.team-card-title{
+    color: #666666;
+    font-size: x-small;
+}
 
 /* .mission-shape-2{
     position: absolute;
