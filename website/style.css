@@ -254,6 +254,40 @@ body {
     background-color: #CDA58F;
 }
 
+
+.pillars-bg-mobile{
+    /* width: 100%; */
+
+    height: 100vh;  /* delete: auto size from content */
+    
+    position: relative;
+    background-image: url(assets/images/background/drawable-xhdpi/mission-bg-mobile.png);
+    height: 100vh;
+    background-size: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pillars-cards{
+
+}
+.pillars-card-top{
+    background-color: black;
+}
+
+/* card icon */
+.pillars-card-top > img{
+    width: 24%;
+    height: 150px;
+}
+
+
+.pillars-card-body{
+    background-color: #F7E9DD;
+}
+
+
+
 .pillars-title{
     width: 100%;
     text-align: center;
