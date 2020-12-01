@@ -289,13 +289,24 @@ body {
     margin-left: auto!important;
 }
 .pillars-card-top{
-    background-color: black;
+    background-color: #232323;
+    height: 10rem;
+    position: relative;
 }
 
 /* card icon */
 .pillars-card-top > img{
-    width: 24%;
-    height: 150px;
+    /* 
+        width: 24%;
+        height: 150px; 
+    */
+
+
+    width: 75px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
