@@ -231,7 +231,7 @@ body {
     position: absolute;
     top: 55%;
     left: 50%;
-    transform: translate(-45%, -38%);
+    transform: translate(-50%, -38%);
     width: 50%;
     font-family: L10;
     text-align: center;
@@ -395,6 +395,8 @@ body {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+
 .card-title {
     margin-bottom: 1.75rem;
 }
@@ -403,7 +405,25 @@ body {
     #pillars-card2{
         margin-top: 8rem;
     }
+    .pillars-card{width: 12rem;}
+    .pillars-card-top{height: 6rem;}
+    .pillars-card-body{height: 10rem;}
+    .pillars-card-body-content{margin-top: 2.25rem!important;}
+    .pillars-card-top > img {width: 50px;}
+    .pillars-card-title{font-size: 1rem;}
+    .card-title{margin-bottom: 0.5rem;}
+    .pillars-card-text{
+        font-size: x-small;
+        line-height: 1.25;
+        padding-left: 1.5rem!important;
+        padding-right: 1.5rem!important;
+        line-break: anywhere;
+    }
+
 }
+
+/* @media (min-width:768px){
+} */
 /*  */
 /*  */
 /*  */
