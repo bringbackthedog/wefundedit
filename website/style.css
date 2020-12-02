@@ -633,7 +633,7 @@ body {
 .wfi-footer-mobile{
     position: relative;
     display: block;
-    height: 55vh;
+    /* height: 55vh; */
 
     background-color: white;
     color: #333333;
@@ -681,8 +681,14 @@ ul.footer-list > li{
 }
 
 .footer-newsletter{
+    margin-top: 1.25rem;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.form-group#footer-email{
+    margin-top: .5rem!important;
+    border: 2px solid black ;
 }
 
 .footer-copyright{
@@ -690,7 +696,19 @@ ul.footer-list > li{
     padding-right: 30px;
 }
 
+.lenz-signature{
+    font-size: x-small;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
 
+}
+
+.lenz-signature *{
+    margin:0;
+    text-decoration: none;
+    color: #333333;
+}
 /* .mission-shape-2{
     position: absolute;
     top: 50%;
