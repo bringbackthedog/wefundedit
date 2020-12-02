@@ -303,8 +303,6 @@ body {
 @media(min-width:768px){
     .pillars-section{
         margin-top: 12rem;
-        padding-left: 5rem!important;
-        padding-right: 5rem!important;
     }
 }
 
@@ -385,15 +383,13 @@ body {
 }
 
 .pillars-card-body-content{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
     /* my-5 */
-    margin-top: 3rem!important;
+    margin-top: 3rem!important; 
     margin-bottom: 3rem!important;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+ 
 }
 
 
@@ -405,22 +401,31 @@ body {
     #pillars-card2{
         margin-top: 8rem;
     }
-    .pillars-card{width: 12rem;}
+    .pillars-card{width: 80%}
     .pillars-card-top{height: 6rem;}
-    .pillars-card-body{height: 10rem;}
-    .pillars-card-body-content{margin-top: 2.25rem!important;}
+    .pillars-card-body{height: auto;}
+    /* .pillars-card-body-content{margin-top: 2.25rem!important;} */
+    .pillars-card-body-content{
+        margin-top: 1rem!important;
+        margin-bottom: 1.5rem!important;
+    }
     .pillars-card-top > img {width: 50px;}
     .pillars-card-title{font-size: 1rem;}
     .card-title{margin-bottom: 0.5rem;}
     .pillars-card-text{
         font-size: x-small;
         line-height: 1.25;
-        padding-left: 1.5rem!important;
-        padding-right: 1.5rem!important;
+        /* padding-left: 1.5rem!important; */
+        /* padding-right: 1.5rem!important; */
         line-break: anywhere;
     }
-
+    /* "100% Black Leadership" is too long for col, force alignment */
+    #pillars-title-blacklead{
+        white-space: nowrap;
+        margin-left: -0.5rem;
+    }
 }
+/* END PILLARS SECTION TABLET MEDIA QUERY */
 
 /* @media (min-width:768px){
 } */
