@@ -631,10 +631,17 @@ body {
 **************************/
 
 .wfi-footer-mobile{
+    position: relative;
     display: block;
-}
+    height: 50vh;
+
+    background-color: white;
+    color: #333333;
+    font-size: smaller;
+}   
 
 .wfi-footer-tablet{
+    position: relative;
     display: none;
 }
 
@@ -646,6 +653,25 @@ body {
     .wfi-footer-tablet{
         display: block;
     }   
+}
+
+.footer-row1{
+    margin-top: 3rem!important;
+}
+
+ul.footer-list{
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+ul.footer-list > li{
+    margin-bottom: 0.5rem  ;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #333333;
 }
 
 
