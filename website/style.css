@@ -60,6 +60,9 @@ body {
     font-family: cooperBlack;
 }
 
+.navbar-toggler{
+    border: none;
+}
 .donate-button {
     font-family: L10;
     font-size: small;
@@ -119,7 +122,7 @@ body {
     display: block;
     color: #333333;
     padding-left: 3rem!important; /* bs: pl-5*/
-    padding-top: 3rem!important; /* bs: pl-5*/
+    padding-top: 1.25rem!important; /* bs: pl-5*/
     font-family: L10;
 }
 
@@ -132,7 +135,12 @@ body {
 .hero-btn-mobile{
     background-color: #232323;
     color: white;
-    font-size: small;
+    padding-left: 1.5rem!important;
+    padding-right: 1.5rem!important;
+    padding-top: 0.5rem!important;
+    padding-bottom: 0.5rem!important;
+    font-size: medium;
+    font-family: 'L10';
 }
 
 /* MEDIA QUERIES: tablets and desktops, less than 1200px */
@@ -162,6 +170,7 @@ body {
     /* overflow: hidden; */
     position: relative;
     width: 100%;
+    margin-top: 1.5rem!important;
 
 }
 
@@ -226,13 +235,18 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 70%;
+    width: 80%;
     font-family: L10;
     text-align: center;
 }
 
+.mission-title {
+    padding-top: 1rem!important;
+    padding-bottom: 0.5rem!important;
+}
+
 .mission-txt-mobile > p {
-    font-size: small;
+    /* font-size: small; */
 }
 
 /* MEDIA QUERIES: MISSION SECTION */
