@@ -189,9 +189,10 @@ body {
 }
 
 .mission-shape-2-tablet{
+    display: none;
     position: relative;
     text-align: center;
-    display: none;
+    padding-top: 3rem;;
 }
 
 .mission-shape-2-tablet > img{
@@ -199,7 +200,7 @@ body {
     /* height: 215px;
     width: 40%;
     padding-top: 3rem!important; */
-    width: 23rem;
+    width: 27rem;
 }
 
 .mission-shape-2-mobile{
@@ -215,11 +216,10 @@ body {
 
 .mission-txt-tablet{
     display: none;
- 
     position: absolute;
     top: 55%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-45%, -38%);
     width: 50%;
     font-family: L10;
     text-align: center;
@@ -228,6 +228,11 @@ body {
 .mission-txt-tablet > p {
     font-size: small;
     width: 70%;
+    line-height: 1.3;
+    margin-left: auto!important;
+    margin-right: auto!important;
+
+
 }
 /* #mission-title-tablet{
     padding-bottom: 1.25rem!important;
