@@ -633,11 +633,11 @@ body {
 .wfi-footer-mobile{
     position: relative;
     display: block;
-    height: 50vh;
+    height: 55vh;
 
     background-color: white;
     color: #333333;
-    font-size: smaller;
+    /* font-size: smaller; */
 }   
 
 .wfi-footer-tablet{
@@ -657,12 +657,14 @@ body {
 
 .footer-row1{
     margin-top: 3rem!important;
+    margin-bottom: 1.5rem!important;
 }
 
 ul.footer-list{
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
+    margin-bottom: -0.5rem;
 }
 
 ul.footer-list > li{
@@ -674,6 +676,19 @@ ul.footer-list > li{
     color: #333333;
 }
 
+.footer-socials-col{
+    margin-top: auto!important;
+}
+
+.footer-newsletter{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer-copyright{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 
 /* .mission-shape-2{
