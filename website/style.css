@@ -17,8 +17,13 @@
     src: url(assets/font/L10/L10_Regular.ttf);
 }
 
-
-
+/*********************
+                     |
+    ------------     |
+    |  SHARED  |     |
+    ------------     |
+                     |
+*********************/
 
 html {
     width: 100%;
@@ -38,6 +43,13 @@ body {
     margin-left: 0px;
 }
 
+/* bigger titles on tablet + */
+@media (min-width: 768px){
+    .wfi-titles{
+        font-size: 2rem;
+    }
+
+}
 
 
 /*********************
