@@ -300,6 +300,12 @@ body {
     margin-top: 9rem;
 }
 
+@media(min-width:768px){
+    .pillars-section{
+        margin-top: 12rem;
+    }
+}
+
 .pillars-title{
     position: absolute;
     top: -85px;
