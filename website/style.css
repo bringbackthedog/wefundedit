@@ -313,18 +313,25 @@ body {
     text-align: center;
 }
 
-.pillars-bg-mobile{
+.pillars-bg{
     height: auto;
     position: relative;
     background-image: url(assets/images/background/drawable-xhdpi/mission-bg-mobile.png);
-    /* background-position: center; */
     background-position-x: center;
     background-position-y: 4rem;
     background-repeat: no-repeat;
-    /* background-size: 140%; */
     background-size: cover;
+    /*  */
     
 }
+
+/* .pillars-bg-tablet{
+    display: none;
+} */
+/* @media (min-width:768px){
+    .pillars-bg-tablet{display: block;}
+    .pillars-bg-mobile{display: none;}
+} */
 
 /* CARDS */
 .pillars-cards{
