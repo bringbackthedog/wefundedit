@@ -170,7 +170,7 @@ body {
     /* overflow: hidden; */
     position: relative;
     width: 100%;
-    margin-top: 1.5rem!important;
+    margin-top: 2.5rem!important;
 
 }
 
@@ -196,9 +196,10 @@ body {
 
 .mission-shape-2-tablet > img{
     /* img-fluid */
-    height: 215px;
+    /* height: 215px;
     width: 40%;
-    padding-top: 3rem!important;
+    padding-top: 3rem!important; */
+    width: 23rem;
 }
 
 .mission-shape-2-mobile{
@@ -216,7 +217,7 @@ body {
     display: none;
  
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
@@ -228,6 +229,10 @@ body {
     font-size: small;
     width: 70%;
 }
+/* #mission-title-tablet{
+    padding-bottom: 1.25rem!important;
+    padding-top: 1.25rem!important;
+} */
 
 .mission-txt-mobile{
     position: absolute;
