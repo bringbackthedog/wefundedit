@@ -820,6 +820,7 @@ body {
         width: 20rem;
     }
 }
+/* END COMMUNITY MEDIA QUERIES */
 
 /*  */
 /*  */
@@ -847,16 +848,9 @@ body {
 .wfi-footer-tablet{
     position: relative;
     display: none;
-}
+    padding-left: 3rem!important;
+    padding-right: 3rem!important;
 
-@media (min-width: 768px){
-    .wfi-footer-mobile{
-        display: none;
-    }
-    
-    .wfi-footer-tablet{
-        display: block;
-    }   
 }
 
 .footer-row1{
@@ -913,6 +907,24 @@ ul.footer-list > li{
     text-decoration: none;
     color: #333333;
 }
+
+/* FOOTER MEDIA QUERY */
+@media (min-width:768px){
+    .wfi-footer-mobile{
+        display: none;
+    }
+    
+    .wfi-footer-tablet{
+        display: block;
+        font-size: x-small;
+    }   
+
+    .footer-copyright{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 /* .mission-shape-2{
     position: absolute;
     top: 50%;
