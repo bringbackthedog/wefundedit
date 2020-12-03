@@ -813,6 +813,14 @@ body {
         width: 100%;
         border-radius: 15%;
     }
+
+    .community-card-top > img {
+        /* width: 6rem; */
+    }
+
+    .community-card-body *{
+        font-size: 1.25rem;
+    }
     .community-bg{
         top: 25%;
     }
@@ -917,12 +925,39 @@ ul.footer-list > li{
     .wfi-footer-tablet{
         display: block;
         font-size: x-small;
-    }   
+    }
+    
+    .footer-row1{
+        margin-top: 2rem!important;
+    }
+
+    ul.footer-list > li {
+        margin-bottom: 0.1rem;
+    }
 
     .footer-copyright{
         padding-left: 0;
         padding-right: 0;
+        padding-top: 1rem!important;
     }
+
+    #copyright{
+        margin-top: 2rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .lenz-signature{
+        text-align: start;
+    }
+
+    .footer-social-icon{
+
+    }
+
+    .footer-socials-container{
+        padding-top: 1.5rem!important;
+    }
+
 }
 
 /* .mission-shape-2{
