@@ -108,6 +108,11 @@ body {
     .donate-button{margin-left: 3.5rem;}
 }
 
+/* @media (min-width:992px){
+    .wfi-menu-items-container{
+        margin-left: 3rem!important;
+    }
+} */
 
 /*********************
                      |
