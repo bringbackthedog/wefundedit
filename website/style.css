@@ -924,6 +924,7 @@ ul.footer-list > li{
     
     .wfi-footer-tablet{
         display: block;
+        background-color: white;
         font-size: x-small;
     }
     
@@ -951,7 +952,8 @@ ul.footer-list > li{
     }
 
     .footer-social-icon{
-
+        margin-right: 0.5rem!important;
+        margin-left: 0.5rem!important;
     }
 
     .footer-socials-container{
