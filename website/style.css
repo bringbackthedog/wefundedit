@@ -329,6 +329,7 @@ body {
 @media (min-width:768px){
     .pillars-bg{
         background-image: url(assets/images/background/drawable-xhdpi/mission-bg.png);
+        background-size: 100%;
     }
 }
 
@@ -399,7 +400,7 @@ body {
 
 @media (min-width:768px){
     #pillars-card2{
-        margin-top: 8rem;
+        margin-top: 35%;
     }
     .pillars-card{width: 80%}
     .pillars-card-top{height: 6rem;}
@@ -421,8 +422,11 @@ body {
     }
     /* "100% Black Leadership" is too long for col, force alignment */
     #pillars-title-blacklead{
-        white-space: nowrap;
-        margin-left: -0.5rem;
+        /* white-space: nowrap;
+        margin-left: -0.5rem; */
+        /* cancel card padding for title */
+        margin-left: -1.25rem;
+        margin-right: -1.25rem;
     }
 }
 /* END PILLARS SECTION TABLET MEDIA QUERY */
