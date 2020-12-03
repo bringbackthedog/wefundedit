@@ -472,8 +472,23 @@ body {
     width: 100%;
     background-color: white;
     opacity: 30%;
+    z-index: -99;
 }
+.team-bg2{
+    display: none;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
 
+}
+.team-bg3{
+    display: none;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
 .team-card-container{
 
     /* px-5
@@ -515,7 +530,16 @@ body {
     font-size: x-small;
 }
 
+/* TABLET MEDIA QUERY */
 @media (min-width:768px){
+    .team-title{
+        margin-bottom: 2rem;
+    }
+  
+    .team-cards{
+        padding-top: 2rem!important;
+        padding-bottom: 2rem!important;
+    }
     .team-card{
         height: auto;
         padding-top: .75rem!important;
@@ -533,7 +557,39 @@ body {
     .team-card-name{
         font-size: xx-small;
     }
+
+    .team-bg2, .team-bg2 *{
+        display: block;
+    }
+
+    .team-bg2 > img {
+        width: 26rem;
+    }
+
+    .team-bg3, .team-bg3 *{
+        display: block;
+    }
+
+    .team-bg3 > img {
+        position: absolute;
+        top: 4.5rem;
+        right: 0;
+        width: 18rem;
+
+    }
+
+    
+    /* .team-cards-mask{
+        height: auto;
+        position: relative;
+        background-image: url(assets/images/background/drawable-xhdpi/mission-bg-mobile.png);
+        background-position-x: center;
+        background-position-y: 4rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
 }
+/* END TEAM MEDIA QUERIES */
 
 
 
