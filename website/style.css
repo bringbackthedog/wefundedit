@@ -59,14 +59,6 @@ body {
     ------------     |
                      |
 *********************/
-/* smaller nav bar text and add padding on tablets + */
-@media (min-width: 768px) {
-    .wfi-menu-items{
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        font-size: small;
-    }   
-}
 
 .wfi-logo{
     font-family: cooperBlack;
@@ -81,6 +73,33 @@ body {
     width: 128px;
     background-color: black;
     color: white;
+}
+
+/* smaller nav bar text and add padding on tablets + */
+@media (min-width: 768px) {
+    .wfi-menu-items{
+        padding-left: 3.5rem;
+        padding-right: 1.5rem;
+        font-size: small;
+        margin-left: 0!important;
+        margin-right: 5rem!important;
+    }   
+
+    .navbar{
+        height: 6rem;
+    }
+
+    .wfi-logo{
+        padding-left: 6rem;
+        font-size: xx-large;
+    }
+
+    .donate-button{
+        font-size: xx-small;
+        width: 6rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
 }
 
 
