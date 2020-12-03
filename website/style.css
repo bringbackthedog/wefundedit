@@ -530,7 +530,7 @@ body {
     font-size: x-small;
 }
 
-/* TABLET MEDIA QUERY */
+/* TEAM: TABLET MEDIA QUERY */
 @media (min-width:768px){
     .team-title{
         margin-bottom: 2rem;
@@ -618,6 +618,11 @@ body {
     height: 100%;
 }
 
+@media (min-width:768px){
+    .business-model-title {
+        margin-top: 5rem;
+    }
+}
 .business-model-infographic-mobile{
     display: block;
     padding-left: 3rem!important;
@@ -631,6 +636,8 @@ body {
 }
 .business-model-infographic-tablet{
     display: none;
+    padding-left: 6rem!important;
+    padding-right: 6rem!important;
     
 }
 
