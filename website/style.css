@@ -729,6 +729,7 @@ body {
 }
 
 .community-card{
+    width: 18rem;
     border-radius: 5%;
     overflow: hidden;
     /* mx-auto */
@@ -784,6 +785,41 @@ body {
     margin: 0;
 }
 
+/* COMMUNITY MEDIA QUERIES */
+@media (min-width:768px){
+    .community-card-container{
+        padding-left: 0;
+        padding-right: 0;
+    ```
+    }
+    
+    .community-title{
+        top: -35%;
+    }
+
+    .community-cards{
+        padding-top: 1rem!important;
+        padding-bottom: 4rem!important;
+    }
+
+    .community-cards-container{
+        padding-left: 1rem!important;
+        padding-right: 1rem!important;
+        -ms-flex-pack: distribute!important;
+        justify-content: space-around!important;
+    }
+
+    .community-card{
+        width: 100%;
+        border-radius: 15%;
+    }
+    .community-bg{
+        top: 25%;
+    }
+    .community-bg > img{
+        width: 20rem;
+    }
+}
 
 /*  */
 /*  */
