@@ -515,6 +515,27 @@ body {
     font-size: x-small;
 }
 
+@media (min-width:768px){
+    .team-card{
+        height: auto;
+        padding-top: .75rem!important;
+        padding-bottom: .75rem!important;
+        padding-left: .25rem!important;
+        padding-right: .25rem!important;
+
+    }
+    .team-card-title{
+        font-size: 7px;
+    }
+    .team-card-text{
+        padding: 0;
+    }
+    .team-card-name{
+        font-size: xx-small;
+    }
+}
+
+
 
 /*  */
 /*  */
