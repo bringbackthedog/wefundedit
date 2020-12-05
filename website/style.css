@@ -193,6 +193,23 @@ body {
     } 
 }
 
+/* MEDIA QUERIES: Desktops 1200px + */
+@media (min-width: 1200px) 
+{
+    #hero-header-txt-tablet-plus{
+        font-size: 2.75rem;
+    }
+    #hero-sub-header-txt-tablet-plus{
+        font-size: medium;
+    }
+    /* .hero-txt{
+        display: block;
+    } 
+    .hero-txt-mobile{
+        display: none;
+    }  */
+}
+
 /*  */
 /*  */
 /*  */
