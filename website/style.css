@@ -747,7 +747,7 @@ body {
     padding-bottom: 1.5rem!important;
     padding-top: 1.5rem!important;
 }
-.business-model-infographic-tablet{
+.business-model-infographic-tablet-plus{
     display: none;
     padding-left: 6rem!important;
     padding-right: 6rem!important;
@@ -774,15 +774,35 @@ body {
     padding-right: 1.5rem!important;
 }
 
-/* BUSINESS MODEL MEDIA QUERIES */
+/* BUSINESS MODEL TABLET MEDIA QUERY */
 @media (min-width: 768px) {
     .business-model-infographic-mobile{
         display: none;
     }
-    .business-model-infographic-tablet{
+    .business-model-infographic-tablet-plus{
         display: block;
     }
 }
+/* END BUSINESS MODEL TABLET MEDIA QUERY */
+
+/* BUSINESS MODEL DESKTOP MEDIA QUERY */
+@media (min-width:1200px){
+    .business-model-infographic-tablet-plus{
+        width: 60%;
+        padding-left: 6rem!important;
+        padding-right: 6rem!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+/* 
+    #bm-infographic-img{
+
+    } */
+}
+/* END BUSINESS MODEL DESKTOP MEDIA QUERY */
+
+
+
 
 /*  */
 /*  */
