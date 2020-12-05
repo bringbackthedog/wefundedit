@@ -103,7 +103,7 @@ body {
     }
 }
 
-/* fixing donate button for IPAD */
+/* fixing donate button for regular IPAD */
 @media (min-width: 768px)  and (max-width: 991.98px){
     .donate-button{margin-left: 3.5rem;}
 }
@@ -350,6 +350,14 @@ body {
     }
 }
 
+#pillars-content-tablet-and-smaller{
+    display: none;
+}
+
+#pillars-content-desktop{
+    display: block;
+}
+
 .pillars-title{
     position: absolute;
     top: -85px;
@@ -376,6 +384,19 @@ body {
         background-size: 100%;
     }
 }
+
+@media (min-width:1200px){
+    #pillars-content-tablet-and-smaller{
+        display: none;
+    }
+
+    #pillars-content-desktop{
+        display: block;
+    }
+}
+
+
+
 
 /* CARDS */
 .pillars-cards{
