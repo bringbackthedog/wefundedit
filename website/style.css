@@ -505,6 +505,10 @@ body {
     .card-title{
         padding-top: 1.25rem!important; /* centering text oon card */
     }
+    .pillars-card-text{font-size: small;}
+
+    .pillars-bg {
+        background-size: 100% 90%;}
 }
 /* END PILLARS SECTION DESKTOP MEDIA QUERY */
 
