@@ -344,18 +344,12 @@ body {
     margin-top: 9rem;
 }
 
-@media(min-width:768px){
-    .pillars-section{
-        margin-top: 12rem;
-    }
-}
-
 #pillars-content-tablet-and-smaller{
-    display: none;
+    display: block;
 }
 
 #pillars-content-desktop{
-    display: block;
+    display: none;
 }
 
 .pillars-title{
@@ -379,6 +373,9 @@ body {
 }
 
 @media (min-width:768px){
+    .pillars-section{
+        margin-top: 12rem;
+    }
     .pillars-bg{
         background-image: url(assets/images/background/drawable-xhdpi/mission-bg.png);
         background-size: 100%;
