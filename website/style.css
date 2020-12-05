@@ -372,30 +372,7 @@ body {
 
 }
 
-@media (min-width:768px){
-    .pillars-section{
-        margin-top: 12rem;
-    }
-    .pillars-bg{
-        background-image: url(assets/images/background/drawable-xhdpi/mission-bg.png);
-        background-size: 100%;
-    }
-}
-
-@media (min-width:1200px){
-    #pillars-content-tablet-and-smaller{
-        display: none;
-    }
-
-    #pillars-content-desktop{
-        display: block;
-    }
-}
-
-
-
-
-/* CARDS */
+/* PILLARS CARDS */
 .pillars-cards{
     position: relative;
     /* top: -5%; */
@@ -460,7 +437,17 @@ body {
     margin-bottom: 1.75rem;
 }
 
+/* and (max-width:1119.98px) ?? */
 @media (min-width:768px){
+
+    .pillars-section{
+        margin-top: 12rem;
+    }
+    .pillars-bg{
+        background-image: url(assets/images/background/drawable-xhdpi/mission-bg.png);
+        background-size: 100%;
+    }
+
     #pillars-card2{
         margin-top: 35%;
     }
@@ -480,7 +467,7 @@ body {
         line-height: 1.25;
         /* padding-left: 1.5rem!important; */
         /* padding-right: 1.5rem!important; */
-        line-break: anywhere;
+        /* line-break: anywhere; */
     }
     /* "100% Black Leadership" is too long for col, force alignment */
     #pillars-title-blacklead{
@@ -492,6 +479,40 @@ body {
     }
 }
 /* END PILLARS SECTION TABLET MEDIA QUERY */
+
+
+/* PILLARS SECTION DESKTOP MEDIA QUERY */
+@media (min-width:1200px){
+    #pillars-content-tablet-and-smaller{
+        display: none;
+    }
+
+    #pillars-content-desktop{
+        display: block;
+    }
+
+    .pillars-card {
+        width: 16rem;
+    }
+    
+    .pillars-card-top {
+        height: 7rem;
+    }
+
+    .pillars-card-body {
+        height: 14rem;
+    }
+    .card-title{
+        padding-top: 1.25rem!important; /* centering text oon card */
+    }
+}
+/* END PILLARS SECTION DESKTOP MEDIA QUERY */
+
+
+
+
+
+
 
 /* @media (min-width:768px){
 } */
