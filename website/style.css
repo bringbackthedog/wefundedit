@@ -691,17 +691,18 @@ body {
 @media (min-width:1200px){
     .team-bg2 > img {
         width: 37rem;
-        height: 44rem;
+        height: 100%;
     }
 
     .team-bg3 > img {
         position: absolute;
         top: 6.5rem;
         right: 0;
-        width: 27rem;
-        height: 32rem;
+        /* max-width: 100%; */
+        height: 28rem;
+        width: 28%;
+        height: 71%;
     }
-
 }
 /* END TEAM DESKTOP MEDIA QUERIES */
 
