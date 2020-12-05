@@ -326,7 +326,7 @@ body {
 
 @media (min-width:1200px){
     .mission-title-tablet-plus{
-        padding-bottom: .75rem;
+        padding-bottom: 1.5rem;
     }
 
     .mission-txt-tablet-plus > p {
@@ -685,9 +685,25 @@ body {
         background-size: cover;
     } */
 }
-/* END TEAM MEDIA QUERIES */
+/* END TEAM TABLET MEDIA QUERIES */
 
+/* TEAM DESKTOP MEDIA QUERIES */
+@media (min-width:1200px){
+    .team-bg2 > img {
+        width: 37rem;
+        height: 44rem;
+    }
 
+    .team-bg3 > img {
+        position: absolute;
+        top: 6.5rem;
+        right: 0;
+        width: 27rem;
+        height: 32rem;
+    }
+
+}
+/* END TEAM DESKTOP MEDIA QUERIES */
 
 /*  */
 /*  */
