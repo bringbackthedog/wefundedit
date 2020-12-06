@@ -200,7 +200,7 @@ body {
         font-size: 3.25rem;
     }
     #hero-sub-header-txt-tablet-plus{
-        font-size: medium;
+        font-size: large;
     }
     /* .hero-txt{
         display: block;
@@ -1024,7 +1024,7 @@ body {
     /* font-size: smaller; */
 }   
 
-.wfi-footer-tablet{
+.wfi-footer-tablet-plus{
     position: relative;
     display: none;
     padding-left: 3rem!important;
@@ -1093,7 +1093,7 @@ ul.footer-list > li{
         display: none;
     }
     
-    .wfi-footer-tablet{
+    .wfi-footer-tablet-plus{
         display: block;
         background-color: white;
         font-size: x-small;
@@ -1129,6 +1129,14 @@ ul.footer-list > li{
 
     .footer-socials-container{
         padding-top: 1.5rem!important;
+    }
+
+}
+
+
+@media (min-width:1200px){
+    .wfi-footer-tablet-plus {
+        font-size: smaller;
     }
 
 }
