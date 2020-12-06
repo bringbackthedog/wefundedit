@@ -1138,6 +1138,10 @@ ul.footer-list > li{
     color: #333333;
 }
 
+.lenz-email-icon{
+    padding-left: 0.25rem;
+}
+
 /* FOOTER MEDIA QUERY */
 @media (min-width:768px){
     .wfi-footer-mobile{
