@@ -360,7 +360,8 @@ body {
     }
 
     .mission-txt-tablet-plus > p {
-        width: 18rem;
+        width: 50%;
+        font-size: medium;
     }
 }
 
@@ -834,7 +835,7 @@ body {
 /* BUSINESS MODEL DESKTOP MEDIA QUERY */
 @media (min-width:1200px){
     .business-model-infographic-tablet-plus{
-        width: 60%;
+        width: 75%;
         padding-left: 6rem!important;
         padding-right: 6rem!important;
         margin-left: auto!important;
@@ -1012,6 +1013,10 @@ body {
 /* COMMUNITY DESKTOP MEDIA QUERIES */
 @media (min-width:1200px){
     
+   .community-section{
+        margin-top: 22rem;
+   }
+   
     .community-bg > img {
         width: 30rem;
     }
