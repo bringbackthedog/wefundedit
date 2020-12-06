@@ -48,7 +48,12 @@ body {
     .wfi-titles{
         font-size: 2rem;
     }
+}
 
+@media (min-width:1200px){
+    .wfi-titles{
+        font-size: 3rem;
+    }
 }
 
 
@@ -196,11 +201,36 @@ body {
 /* MEDIA QUERIES: Desktops 1200px + */
 @media (min-width: 1200px) 
 {
+    .navbar {
+        min-height: 8rem;
+    }
+
+    .hero-btn {
+        font-size: large;
+    }
     #hero-header-txt-tablet-plus{
         font-size: 3.25rem;
     }
     #hero-sub-header-txt-tablet-plus{
+        font-size: larger;
+    }
+
+    .wfi-menu-items{
         font-size: large;
+    }
+
+    li.nav-item {
+        padding-right: 1.25rem;
+    }
+
+    .donate-button {
+        font-size: large;
+        width: auto;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-radius: 5%;
     }
     /* .hero-txt{
         display: block;
@@ -501,20 +531,28 @@ body {
     }
 
     .pillars-card {
-        width: 16rem;
+        width: 22rem;
     }
     
     .pillars-card-top {
-        height: 7rem;
+        height: 9rem;
+    }
+
+    .pillars-card-top > img {
+        width: 75px;
+    }
+  
+    .pillars-card-title {
+        font-size: x-large;
     }
 
     .pillars-card-body {
-        height: 14rem;
+        height: 17rem;
     }
     .card-title{
         padding-top: 1.25rem!important; /* centering text oon card */
     }
-    .pillars-card-text{font-size: small;}
+    .pillars-card-text{font-size: large;}
 
     .pillars-bg {
         background-size: 100% 90%;}
@@ -702,6 +740,14 @@ body {
         height: 28rem;
         width: 28%;
         height: 71%;
+    }
+
+    .team-card-name {
+        font-size: larger;
+    }
+    
+    .team-card-title {
+        font-size: medium;
     }
 }
 /* END TEAM DESKTOP MEDIA QUERIES */
